@@ -1,0 +1,41 @@
+#sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec3{
+    background-image: url(./image/milky-way.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+p{
+    color: #fff;
+}
+.bcg{
+    color: azure;
+}
+.bcg:hover{
+    color: rgb(248, 136, 7);
+}
+.title{
+    color: ivory;
+    size: 90px;
+}
+.back{
+    color: rgb(83, 83, 83);
+}
+.back:hover{
+    color: rgb(158, 186, 218);
+}
+.one {
+    background-image: url(./image/snowy.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+
+}   
+.two {
+    background-image: url(./image/beach.jpg);
+    background-attachment: fixed ;
+    height: 100vh;
+}

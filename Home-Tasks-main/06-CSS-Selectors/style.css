@@ -1,0 +1,121 @@
+#sec1{
+    background-color: rgb(133, 204, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.photo{
+    display: inline;
+    margin-left: none;
+    margin-right: none;
+
+}
+#sec1 input:focus {
+    background-color: #000;
+    color: #f10a0a;
+}
+#sec1 input:focus::placeholder {
+    color: #f50707;
+}
+
+#name{
+    width: 150%;
+}
+#fname{
+    width: 150%;
+}
+#mail{
+    width: 150%;
+}
+#psw{
+    width: 150%;
+}
+
+.name{
+    color: blueviolet;
+}
+.fname{
+    color: darkgreen;
+}
+.mail{
+    color: darkred;
+}
+.psw{
+    color: darkorange;
+}
+
+
+#sign{
+   background-color: rgb(177, 144, 103);
+    color: rgb(173, 84, 42);
+    border-color: indianred;
+}
+#sign:hover{
+    background-color: crimson;
+    color: rgb(237, 241, 241);
+    border: rgb(77, 32, 51);
+}
+#save{
+    background-color: rgb(14, 84, 97);
+    color: azure;
+    border-color: antiquewhite;
+}
+#save:hover{
+    background-color: beige;
+    color: chocolate;
+}
+#sec2{
+    background-color: rgb(240, 241, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+textarea{
+    resize: none;
+    color: #0717f5;
+}
+#yourself:hover{
+    background-color: coral;
+    border: white;
+}
+.date{
+    color: darkred;
+}
+.age{
+    color: darkolivegreen;
+}
+#sec3{
+    background-color: rgb(55, 192, 96);
+    display: flex;
+    justify-content: center;
+    /* display: block; */
+    align-items: center;
+    height: 90vh;
+}
+.unorder{
+    color: green;
+}
+.cities{
+    color: brown;
+
+}
+.l1{
+    color: blue;
+}
+#date{
+    color: rgb(81, 76, 156);
+    
+}
+
+
+
+
+
+
+
+
+

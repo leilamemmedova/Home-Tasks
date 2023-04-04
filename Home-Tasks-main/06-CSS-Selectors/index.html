@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>CSS Selectors</h1></center>
+    <section id="sec1"> 
+        <img class="photo" src="rocket.jpeg" width="100" height="100" >
+
+        <form class="f1" > 
+  
+            <div>
+
+            <h2 >Register Form</h2>
+                <br>
+            <label class="name" for="name">First name:</label>
+            <br>
+            <input id="name" type="text" placeholder="Enter a name..." required>
+                <br><br>
+            <label class="fname" for="fname">Last name:</label>
+            <br>
+            <input id="fname" type="text" placeholder="Enter a surname..." required>
+                <br><br>
+            <label class="mail" for="mail">Email:</label>
+            <br>
+            <input id="mail" type="text" placeholder="Enter a email..." required>
+                <br><br>
+            <label class="psw" for="psw">Password:</label>
+            <br>
+            <input id="psw" type="password" placeholder="Enter a password..." required>
+            <br><br>
+            <input  type="checkbox"  required>
+            <label class="requirenments" >Accept all requirenments</label>
+                <br><br>
+            <input id="tch" type="radio" name="c" required>
+            <label class="tch" for="tch">Teacher</label>
+            <input id="std" type="radio" name="c" required>
+            <label class="std" for="std">Students</label>
+            <input id="otr" type="radio" name="c" required>
+            <label class="otr" for="otr">Other</label>
+                <br><br>
+            <button id="sign" type="submit">Sign in</button>
+                <br><br>
+                
+            <a >Register maybe later:</a>
+            <a href="#sec2">Skip</a>
+            </div>
+            
+        </form>
+    </section>
+
+    
+    
+    
+
+
+    <section id="sec2"> 
+        <img class="photo" src="rocket.jpeg" width="100" height="100" >
+
+        <form  class="f2">
+            <div>
+
+            <center><h2>User Info</h2></center>  
+            <h3>Who are u?</h3>
+            <textarea  id="yourself" cols="60" rows="10" minlength="20" placeholder="Add some info about yourself..." required></textarea>
+                 <br><br>
+            <input type="file" name="" id="date" required>
+                <br><br>
+            <label class="date" for="date">Choose date:</label>
+            <input id="date" type="date" required>
+                <br><br>
+            <label class="age" for="age">Age:</label>
+            <input id="age" type="number" placeholder="your age..." required>
+                <br><br>
+            <button id="save" type="submit">Save</button>
+            <br><br>
+        
+            <a >Maybe later):</a>
+                <a href="#sec3">Skip</a>
+                    <br><br>
+            <a >Go back and sign in:</a>
+                <a href="#sec1">Sign in</a>
+
+            </div>
+        </form>
+    </section>
+    
+
+
+    <section id="sec3">
+        <div> 
+        <h2>Changes tags' color without class name and id.</h2>
+            <h3 class="cities">CITIES</h3>
+            <ul class="unorder">
+                <li>Shusha</li>
+                <li>Qusar</li>
+                <li>Baku</li>
+            </ul>
+           
+            <ol class="city" type="1" >
+                <li>Ismayilli</li>
+                <li>Shamaki</li>
+                <li>Shirvan</li>
+                <li>Qazag</li>
+            </ol>
+            <br>
+
+            <p class="l1">Lorem1</p>       
+            <p class="l2">Lorem2</p> 
+            <a href="#sec1">Go back</a>
+            <a >to first section!</a>
+            <br><br>
+        
+
+        </div>   
+    </section>
+</body>
+</html>

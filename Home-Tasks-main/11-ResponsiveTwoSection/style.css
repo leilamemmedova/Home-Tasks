@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+                /* sec1 */
+
+#sec1{
+    background-color: #f1f5f9;
+    width: 100%;    
+}
+.sec1{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 16px; */
+    column-gap: 10px;
+}
+.info{
+    width: 230px;
+    height: 250px;
+    margin-right: 20px;
+}
+#sec1 .sec1 img{
+    width: 200px;
+    border-radius: 7px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+#sec1 .sec1 .tea{
+    width: 230px;
+    height: 230px;
+    padding-bottom: 30px;
+}
+.check{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #688f37;
+}
+p , .products ,strong{
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 15px;    
+}
+#sec1 .name{
+    font-size: 11px;
+    font-weight: bold;
+}
+#sec1 .check , .cost{
+    font-family: 'Grand Hotel', cursive; 
+    margin-top: 10px;
+}
+#sec1 .check{
+    font-size: 24px;
+    font-weight: 80px;
+    letter-spacing: 4px;
+}
+#sec1 .cost{
+    font-size: 14px;
+}
+#sec1 .lorem1{
+    font-size: 11px;
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(192, 190, 190);
+    
+}
+#sec1 .sec1 a{
+    font-family: 'Catamaran', sans-serif;
+    color: #ffffff;
+    background-color: #688f37;
+    border: #688f37 solid;
+    border-radius: 3px;
+    padding: 3px 8px; 
+    font-size: 11px; 
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+#sec1 .sec1 a:hover{
+    background-color: #a8d374;
+    border-color: #a8d374;
+    
+}
+#sec1 .sec1 p{
+    padding-bottom: 15px;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    font-weight: 100px;
+    font-size:13px;
+    line-height: 20px;
+}
+.cost{
+    color: #688f37;
+    padding-bottom: 10px;
+}
+
+
+
+                /* sec2 */
+
+#sec2 .sec2 button{
+    color: #ffffff;
+    background-color: #688f37;
+    border: #688f37 solid;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#sec2 .sec2 button:hover{
+    background-color: #a8d374;
+    border-color: #a8d374;
+}
+#sec2{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#sec2 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 10px;
+}
+#sec2 .explore{
+    font-family: 'Grand Hotel', cursive;
+    color: #688f37;
+    font-size: 25px;
+    font-weight: 100px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+#sec2 p{
+    margin-bottom: 10px;
+}
+#sec2 .our{
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 200px;
+}
+.type{
+    width: 250px;
+    gap: 20px 20px;
+    background-color: #f1f5f9;
+    border-radius: 8px solid #f1f5f9;
+    padding-bottom: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+#sec2 .type strong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lorem{
+    color: rgb(192, 190, 190);  
+    font-size: 12px;
+    width: 250px;
+    margin-top: 10px;
+}
+img{
+    width: 250px;
+    height: 180px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+#sec2 .aws{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #ffffff solid;
+    border-radius: 50%;
+    background-color: #a8d374 ;
+    color: #688f37 ;
+    font-size: 25px;
+    position: absolute;
+    top: 152px;
+    left: 95px;
+}
+
+
+@media only screen and (max-width:992px) and (min-width: 778px){
+    .sec1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:777px){
+    .sec1, .sec2{
+        flex-direction: column;
+    }
+}

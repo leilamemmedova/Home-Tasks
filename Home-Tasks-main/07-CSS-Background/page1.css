@@ -1,0 +1,31 @@
+body{
+    background-image: url(./image/foggy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.all {display: flex;}
+
+
+
+#sec1{ 
+    float: left;
+    margin: 100px;
+    width: 300px;
+
+
+}
+button #learn{
+    background-color: none;
+    column-rule-color: none;
+}
+
+#sec2{
+    float: right;
+    height: 400px;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #73af73;
+    border-color:  rgb(65, 65, 90);
+    margin: 100px;
+}

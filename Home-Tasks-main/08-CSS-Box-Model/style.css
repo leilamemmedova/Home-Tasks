@@ -1,0 +1,102 @@
+*{ text-decoration: none;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.page1{
+    display: flex;
+    justify-content: space-between;
+}
+#one li:hover{
+    padding: 12px;
+    margin: 8px;
+    background-color: rgb(103, 194, 103);
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+
+#sec2{
+    background-image: url(eat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    background-attachment: fixed;
+}
+
+nav ul{
+    display: flex;
+    gap: 120px;
+    margin-right: 80px;
+    align-items: center;
+    
+}
+li{
+   list-style: none;
+}
+#learn{
+     border: 2px; 
+     border-style: solid;
+     border-color: rgb(107, 105, 105);
+     color: darkgreen;
+    padding: 10px;
+    margin: 10px;
+}
+#learn:hover{
+    background-color: rgb(87, 177, 64);
+    color: antiquewhite;
+    border-color: antiquewhite;
+
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: rgb(20, 20, 20);
+    background-size: cover;
+    display: flex;
+    gap: 80px;
+    height: 60vh;
+    
+}
+footer ul li:hover{
+    color: white;
+}
+.font{
+    font-family: 'Gloria Hallelujah', cursive;
+    width: 50%;
+    
+}
+.front{
+    text-shadow: 4px 4px 3px yellowgreen;    
+}
+.we{
+    display: flex;
+    
+
+}
+.part1{
+    background-image: url(img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    /* background-attachment: fixed; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#line{
+ line-break: strict red;
+}

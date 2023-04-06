@@ -18,4 +18,3 @@
 
 12.Responsive-page- https://luminous-vacherin-0a20ad.netlify.app
 
-https://luminous-arithmetic-3331ae.netlify.app

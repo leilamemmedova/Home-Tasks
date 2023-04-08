@@ -18,3 +18,4 @@
 
 12.Responsive-page- https://luminous-vacherin-0a20ad.netlify.app
 
+14-SCSS-QuicqlyLandingPage- https://subtle-mooncake-c45fe6.netlify.app

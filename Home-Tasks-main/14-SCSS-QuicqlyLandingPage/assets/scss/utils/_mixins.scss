@@ -1,0 +1,12 @@
+@mixin images{
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+@mixin flexBox ($justify-content,$align-items){
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+

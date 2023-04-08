@@ -1,0 +1,58 @@
+.team-section {
+  background-color: $bg_color_sec;
+  width: 100%;
+  height: 100%;
+
+  .container {
+    h2,
+    h5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h5 {
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      .card {
+        border: none;
+        gap: 20px;
+        margin-bottom: 22px;
+        .img {
+          width: 100%;
+        }
+        h4 {
+          color: $main_text_color;
+          gap: 20px;
+        }
+        h6 {
+          color: $main_text_color;
+        }
+        .icons {
+            a {
+            padding-top: 6px;
+            color: $main_text_color;
+            padding: 5px;
+            border: 1px solid #e4e4e4;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:776px){
+    h4{
+      font-size: 36px;
+      gap: 20px;
+    }
+    h5{
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    h6{
+      font-size: 36px;
+    }
+}

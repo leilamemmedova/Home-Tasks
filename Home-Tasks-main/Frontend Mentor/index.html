@@ -23,36 +23,29 @@
       href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Plus+Jakarta+Sans:wght@200&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./main.css" />
     <title>Frontend Mentor</title>
   </head>
   <body>
-    <section class="header">
+    <section class="header-sec">
       <div class="container">
-        <header>
+        <div class="header">
+          <h2>loopstudios</h2>
           <nav>
             <ul>
-              <div class="left">
-                <li><h1>loopstudios</h1></li>
-              </div>
-              <div class="rigth">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Support</a></li>
-                <li>
-                  <a href=""
-                    ><i
-                      class="fa-solid fa-bars menu-btn"
-                      style="color: #ffffff"
-                    ></i
-                  ></a>
-                </li>
-              </div>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Support</a></li>
             </ul>
+            <li>
+              <a href=""
+                ><i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i
+              ></a>
+            </li>
           </nav>
-        </header>
+        </div>
         <h1 class="header-text">IMMERSIVE EXPERIENCES THAT DELIVER</h1>
       </div>
     </section>
@@ -80,48 +73,52 @@
 
     <section class="creations">
       <div class="container">
-        <div class="row button-row d-flex align-items-center">
-          <div class="col col-6">
-            <h1>OUR CREATIONS</h1>
-          </div>
-          <div class="col d-flex justify-content-end see-btn">
+        <div class="buttons-row">
+          <h1>OUR CREATIONS</h1>
+          <div class="hidden-see">
             <a href="">SEE ALL</a>
           </div>
         </div>
 
         <div class="reverse">
-          <div class="row">
-            <div class="col img1 img-card">
+          <div class="row first-cards">
+            <div class="col img-card">
+              <img src="./images/image-deep-earth.jpg" alt="" />
               <span>DEEP EARTH</span>
             </div>
-            <div class="col img2 img-card">
+            <div class="col img-card">
+              <img src="./images/image-night-arcade.jpg" alt="" />
               <span>NIGHT ARCADE</span>
             </div>
-            <div class="col img3 img-card">
+            <div class="col img-card">
+              <img src="./images/image-soccer-team.jpg" alt="" />
               <span>SOCCER TEAM VR</span>
             </div>
-            <div class="col img4 img-card">
+            <div class="col img-card">
+              <img src="./images/image-grid.jpg" alt="" />
               <span>THE GRID</span>
             </div>
           </div>
-          <div class="row">
-            <div class="col img5 img-card">
+          <div class="row last-cards">
+            <div class="col img-card">
+              <img src="./images/image-from-above.jpg" alt="" />
               <span>FROM UP ABOBE VR</span>
             </div>
-            <div class="col img6 img-card">
+            <div class="col img-card">
+              <img src="./images/image-pocket-borealis.jpg" alt="" />
               <span>POCKET BOREALIS</span>
             </div>
-            <div class="col img7 img-card">
+            <div class="col img-card">
+              <img src="./images/image-curiosity.jpg" alt="" />
               <span>THE CRUIOSITY</span>
             </div>
-            <div class="col img8 img-card">
+            <div class="col img-card">
+              <img src="./images/image-fisheye.jpg" alt="" />
               <span>MAKE IT FISHEYE</span>
             </div>
           </div>
-          <div class="row">
-            <div class="col bottom-see-btn text-center">
-              <a href="">SEE ALL</a>
-            </div>
+          <div class="responsive-button">
+            <a href="">SEE ALL</a>
           </div>
         </div>
       </div>
@@ -130,37 +127,28 @@
     <footer>
       <div class="container">
         <div class="footer">
-          <div class="col-6 left">
-            <div class="row text-light">
-              <h3>loopstudios</h3>
-              <div class="row ">
-                <div class="col sections">
-                  <a href="">About</a>
-                  <a href="">Careers</a>
-                  <a href="">Events</a>
-                  <a href="">Products</a>
-                  <a href="">Support</a>
-                </div>
-              </div>
+          <div class="left">
+            <h3>loopstudios</h3>
+            <div class="sections">
+              <a href="">About</a>
+              <a href="">Careers</a>
+              <a href="">Events</a>
+              <a href="">Products</a>
+              <a href="">Support</a>
             </div>
           </div>
-
-          <div class="col-6 right">
-            <div class="row d-flex ">
-              <div class="col-6 icons">
-                <i
-                  class="fa-brands fa-square-facebook"
-                  style="color: #ffffff"
-                ></i>
-                <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
-                <i class="fa-brands fa-pinterest" style="color: #ffffff"></i>
-                <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
-              </div>
+          <div class="right">
+            <div class="icons">
+              <i
+                class="fa-brands fa-square-facebook"
+                style="color: #ffffff"
+              ></i>
+              <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+              <i class="fa-brands fa-pinterest" style="color: #ffffff"></i>
+              <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
             </div>
-            <div class="row ">
-              <div class="col">
-                &copy;2023 Loopstudios.All rights reserved
-              </div>
+            <div class="copy-2023">
+              &copy;2023 Loopstudios.All rights reserved
             </div>
           </div>
         </div>

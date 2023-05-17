@@ -49,14 +49,14 @@
   border: 1px solid white;
   width: 100%;
 }
-.header-sec .header nav li .menu-btn {
+.header-sec .header nav .menu-btn {
   display: none;
   list-style: none;
 }
-.header-sec .header nav li .menu-btn a {
+.header-sec .header nav .menu-btn a {
   text-decoration: none;
 }
-.header-sec .header nav li .menu-btn a .menu-btn {
+.header-sec .header nav .menu-btn a .menu-btn {
   text-decoration: none;
 }
 .header-sec .header-text {
@@ -85,17 +85,15 @@
   .heaer-sec .header nav ul {
     display: none;
   }
-  .heaer-sec .header nav li .menu-btn {
+  .heaer-sec .header nav .menu-btn {
     margin-bottom: 8px;
     list-style: none;
     display: block;
   }
-  .heaer-sec .header nav li .menu-btn a {
-    text-decoration: none;
-  }
   .heaer-sec .header .header-text {
-    font-size: 35px;
-    padding: 25px 40px;
+    width: 40%;
+    font-size: 16px;
+    padding: 10px 20px;
   }
 }
 .interactive {
@@ -201,7 +199,7 @@
 
 @media only screen and (max-width: 768) {
   .responsive-button {
-    display: flex;
+    display: block;
     justify-content: center;
     margin: 15px;
   }
@@ -217,18 +215,23 @@
     color: white;
     background-color: black;
   }
-  .row {
+  .reverse {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .reverse .row {
     display: flex;
     flex-direction: column;
     display: block;
   }
-  .row .img-card {
+  .reverse .row .img-card {
     width: 100%;
     height: 25vh;
     display: flex;
     flex-direction: column;
   }
-  .row .img-card img {
+  .reverse .row .img-card img {
     width: 100%;
   }
 }

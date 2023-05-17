@@ -45,7 +45,7 @@
           }
         }
       }
-      li .menu-btn {
+      .menu-btn {
         display: none;
         list-style: none;
         a {
@@ -82,18 +82,16 @@
         ul {
           display: none;
         }
-        li .menu-btn {
+        .menu-btn {
           margin-bottom: 8px;
           list-style: none;
           display: block;
-          a {
-            text-decoration: none;
-          }
         }
       }
       .header-text {
-        font-size: 35px;
-        padding: 25px 40px;
+        width: 40%;
+        font-size: 16px;
+        padding: 10px 20px;
       }
     }
   }
@@ -215,7 +213,7 @@
   //   display: none;
   // }
   .responsive-button {
-    display: flex;
+    display: block;
     justify-content: center;
     margin: 15px;
     a {
@@ -231,7 +229,11 @@
       }
     }
   }
-  .row{
+  .reverse{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   .row{
     display: flex;
     flex-direction: column;
     display: block;
@@ -244,7 +246,9 @@
         width: 100%;
       }
     }
+  } 
   }
+  
 }
 
 ////footer
